@@ -26,10 +26,5 @@
         "psr-4": {
             "HapiClient\\Tests\\": "tests/"
         }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.0"
-        }
     }
 }
