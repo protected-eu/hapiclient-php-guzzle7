@@ -12,7 +12,7 @@ interface ResourceInterface
     /**
      * All the properties of the resource
      * ("_links" and "_embedded" not included).
-     * @return	Associative array
+     * @return array
      */
     public function getState();
 
@@ -22,7 +22,7 @@ interface ResourceInterface
      * can be either a Link or a numeric array of Links.
      * 
      * Note that there is no guarantees as to the order of the links. 
-     * @return	Associative array
+     * @return array
      */
     public function getAllLinks();
 
@@ -32,7 +32,7 @@ interface ResourceInterface
      * can be either a Resource or a numeric array of Resources.
      * 
      * Note that there is no guarantees as to the order of the embedded resources. 
-     * @return	Associative array
+     * @return array
      */
     public function getAllEmbeddedResources();
 
